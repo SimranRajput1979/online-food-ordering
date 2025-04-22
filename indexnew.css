@@ -54,3 +54,15 @@
     background-color: brown;
     color: white;
   }
+  .nav ul li {
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .account {
+    flex: 0.1;
+  }
+  .account ul {
+    display: flex;
+    justify-content: end;
+  }

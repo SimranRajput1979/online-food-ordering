@@ -103,13 +103,10 @@
   }
   .search input {
     width: 100%;
-    /* outline: none; */
-    /* border: none; */
     padding: 5px;
   }
   .searchicon {
-    /* color: brown; */
-    /* background-color: brown; */
+    
     display: block;
     padding: 4px 5px;
     cursor: pointer;

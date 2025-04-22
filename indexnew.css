@@ -66,3 +66,30 @@
     display: flex;
     justify-content: end;
   }
+  .account ul li {
+    padding: 0 15px;
+    font-size: 18px;
+  }
+  .account .fa-house-chimney{
+    border: 2px solid brown;
+    background-color: brown;
+    padding: 5px 5px;
+    border-radius: 50%;
+    color:white;
+  }
+  .account .fa-magnifying-glass{
+    border: 2px solid brown;
+    background-color: brown;
+    padding: 5px 5px;
+    border-radius: 50%;
+    color: white;
+  
+  }
+  .account .fa-user{
+    border: 2px solid brown;
+    background-color: brown;
+    padding: 5px 5px;
+    border-radius: 50%;
+    color: white;
+  
+  }

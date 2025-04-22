@@ -168,3 +168,24 @@
     color: brown;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+  .fooditems{
+    margin: 70px 0;
+    padding: 20px 0;
+    background-color: bisque;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .item{
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+  }
+  .item div{
+    height: 160px;
+  }
+  .item img{
+    width: 160px;
+    margin-bottom: 15px;
+  }

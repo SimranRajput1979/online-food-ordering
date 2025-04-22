@@ -111,3 +111,38 @@
     padding: 4px 5px;
     cursor: pointer;
   }
+  .home{
+    padding: 0 7vw ;
+  }
+  .mainslide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  
+  }
+  .mainslide div:nth-child(2){
+    flex:1;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .mainslide div:nth-child(1){
+    padding-top: 20px;
+    flex: 1;
+    font-size: 30px;
+  }
+  .mainslide div:nth-child(1) p{
+    font-size: 15px;
+    padding: 20px 0;
+    font-weight:bold;
+    
+  }
+  .mainslide div:nth-child(1) span{
+    color: brown;
+  }
+  .home .mainslide img{
+    max-width: 500px;
+  }
+  .home .mainslide img{
+    animation: animate 5s linear infinite;
+  }

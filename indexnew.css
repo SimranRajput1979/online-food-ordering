@@ -189,3 +189,26 @@
     width: 160px;
     margin-bottom: 15px;
   }
+  .item .whitebtn{
+    width: 120px;
+    line-height: 35px;
+  }
+  .whitebtn{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 160px;
+    font-weight: bold;
+  color: brown;
+  line-height: 50px;
+  border: 2px solid brown;
+  background-color: whitesmoke;
+  border-radius: 5px; 
+  box-shadow:0 0 5px rgba(0, 0, 0, 0.8);
+  transition: all 0.3s;
+  
+  }
+  .whitebtn:hover{
+    color: whitesmoke;
+    background-color: brown;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.8);
+  }

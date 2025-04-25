@@ -245,3 +245,35 @@
     width: 90%;
   
   }
+  .mainslide3 .favfood .item{
+    background-image: url(image/menu_card_bg.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 220px;
+    height: 250px;
+    padding: 15px;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+  
+  
+    /* background-color: bisque; */
+  }
+  .mainslide3 .favfood .item div{
+    height: 160px;
+    margin-bottom: 15px;
+  }
+  .mainslide3 .favfood .item img{
+    width: 160px;
+    margin-bottom: 15px;
+    transition: 1s;
+  }
+  
+  .mainslide3 .favfood .item:hover img{
+    opacity: 0.5;
+    transform: scale(1.1);
+  }

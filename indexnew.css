@@ -277,3 +277,33 @@
     opacity: 0.5;
     transform: scale(1.1);
   }
+  .mainslide3 .favfood .item h5{
+    position: absolute;
+  font-size: 12px;
+  margin-bottom: 160px;
+  color:brown;
+  transform: translateY(0);
+  z-index:5;
+  opacity: 0;
+  transition: 1s;
+  padding-left: 20px;
+  
+  
+  }
+  .mainslide3 .favfood .item:hover h5{
+    opacity: 1;
+  transform: translateY(-89px);
+  
+  }
+  .mainslide3 .favfood .item .gallerybutton{
+    position: relative;
+  margin-top: 6px;
+  color:white;
+  background:brown;
+  padding: 7px 25px;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(45px);
+  z-index: 5;
+  transition: 1s;
+  }

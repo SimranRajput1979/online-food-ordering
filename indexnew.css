@@ -453,3 +453,28 @@
   .headerbar .account ul{
     justify-content: space-between;
   }
+  .mainslide3{
+    margin-top: 100px;
+  }
+  .mainslide3 .dsgn{
+    height: 60%;
+  }
+  .mainslide3 .favhead{
+    width: 80%;
+    margin-bottom: 20px;
+    
+  }
+
+    
+}
+@media only screen and (max-width:550px){
+  .mainslide div:nth-child(1){
+    font-size: 18px;
+
+  }
+  .mainslide div:nth-child(1) p{
+    padding-top: 5px;
+    margin: 10px 0;
+    font-size: 11px;
+
+  }}

@@ -418,3 +418,38 @@
     width: 100%;
     right:0;
   }}
+  .headerbar .account,
+  .headerbar .nav {
+    display: block;
+    font-size: 18px;
+  }
+  .bar .fa-xmark {
+    display: none;
+    top: 20px;
+    right: 5vw;
+    position: absolute;
+    font-size: 25px;
+  }
+  .headerbar .nav ul{
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .headerbar .nav li{
+    width: 96vw;
+    margin: 10px 0;
+    padding: 15px 30px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.8) ;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .headerbar .account{
+    line-height: 40px;
+    margin-top: 60px;
+    background-color: brown;
+    padding: 15px;
+
+  }
+  .headerbar .account ul{
+    justify-content: space-between;
+  }

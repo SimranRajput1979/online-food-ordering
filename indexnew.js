@@ -16,3 +16,21 @@ closeIcon.addEventListener("click", () => {
     barIcon.style.display = "block";
     closeIcon.style.display = "none";
   });
+// Toggle search bar visibility
+searchIcon.addEventListener("click", () => {
+    if (searchBox.style.display === "none" || searchBox.style.display === "") {
+      searchBox.style.display = "flex";
+    } else {
+      searchBox.style.display = "none";
+    }
+  });
+  
+  // Optional: Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth"
+      });
+    });
+  });

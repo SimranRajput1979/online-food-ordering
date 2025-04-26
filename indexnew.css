@@ -392,3 +392,29 @@
 .footertag i:hover{
   color: brown;
 }
+@media only screen and (max-width: 768px) {
+  .header .nav,
+  .header .account {
+    display: none;
+  }
+  .search{
+    width: 60vw;
+  }
+  .bar{
+    display: block;
+    cursor: pointer;
+  }
+  /* .logo{
+    display: none;
+  }
+  */
+
+  .headerbar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    right:0;
+  }}

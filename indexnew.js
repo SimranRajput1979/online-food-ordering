@@ -10,3 +10,9 @@ barIcon.addEventListener("click", () => {
     barIcon.style.display = "none";
     closeIcon.style.display = "block";
   });
+// Close mobile menu
+closeIcon.addEventListener("click", () => {
+    headerbar.style.display = "none";
+    barIcon.style.display = "block";
+    closeIcon.style.display = "none";
+  });

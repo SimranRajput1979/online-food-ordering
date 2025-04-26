@@ -1,4 +1,4 @@
-Food Ordering Website
+<b>Food Ordering Website<b>
 Welcome to my Food Ordering Web Application!
 This project is a simple and attractive website where users can browse menus and place their favorite food orders online.
 

@@ -142,7 +142,7 @@
   border-radius: 50%;
   padding: 3px 8px;
   font-size: 12px;
-  display: none; /* Initially hidden */
+  display: none; 
 }
 
 /* Banner */
@@ -300,9 +300,9 @@
 }
 
 #cartIcon {
-  font-size: 24px; /* Size adjusted to match other icons */
-  color: white; /* White color for consistency */
-  background-color: brown; /* Brown background as used in login and home pages */
+  font-size: 24px; 
+  color: white; 
+  background-color: brown; 
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;

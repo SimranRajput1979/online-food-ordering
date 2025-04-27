@@ -20,19 +20,11 @@
   cursor: pointer;
 }
 .header {
-  /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 0 7vw;
-    background-color: whitesmoke; */
-
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 7vw;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  /* background-color: bisque; */
 }
 .bar {
   display: none;

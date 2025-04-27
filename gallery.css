@@ -4,8 +4,7 @@
   box-sizing: border-box;
   list-style: none;
   color: black;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-}
+ }
 .headerbar{
     display: none;
 }

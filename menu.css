@@ -239,13 +239,11 @@
   color: brown;
   margin: 8px 0;
 }
-
 .menu .menubox .menucard .menutext .price {
   font-weight: bold;
   font-size: 20px;
   padding: 8px 0;
 }
-
 .menu .menubox .menucard .menutext .menubutton {
   color: black;
   text-decoration: none;
@@ -266,7 +264,6 @@
     flex-direction: column;
     align-items: flex-start;
   }
-
   .header .nav {
     display: none;
   }
@@ -275,7 +272,6 @@
     display: block;
     cursor: pointer;
   }
-
   /* Toggle nav menu */
   .bar.active + .nav {
     display: flex;
@@ -298,7 +294,6 @@
 .cart {
   position: relative;
 }
-
 #cartIcon {
   font-size: 24px; /* Size adjusted to match other icons */
   color: white; /* White color for consistency */
@@ -309,7 +304,6 @@
   border: 2px solid brown; /* Border color matches the background */
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 #cartIcon:hover {
   background-color: #8B4513; /* Slightly darker brown on hover for interaction */
   color: white; /* Keep text white on hover */
@@ -326,8 +320,6 @@
   font-size: 12px;
   display: none; /* Initially hidden */
 }
-
-
 /* Cart Icon Styling - Consistent with Login and Home Page */
 .cart {
   position: relative;
@@ -367,13 +359,11 @@
   font-size: 12px;
   display: none; /* Initially hidden */
 }
-
 /* Align cart icon with the other icons */
 .account ul li {
   display: inline-block; /* Ensure icons are in a row */
   padding: 0 10px;
 }
-
 /* Ensure cart icon is consistent across all screen sizes */
 @media only screen and (max-width: 600px) {
   #cartIcon {
@@ -381,7 +371,6 @@
     padding: 8px;
   }
 }
-
 @media only screen and (max-width: 900px) {
   #cartIcon {
     font-size: 18px; /* Keep it consistent on medium screens */

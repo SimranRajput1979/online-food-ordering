@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sign {
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.loginform {
+  width: 400px;
+  height: 530px;
+  background-image: url(image/login_card_bg.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+}
+.sign .loginform h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 45px;
+  color: brown;
+}
+
+.sign .loginform .inputbox {
+  width: 330px;
+  margin: 0 auto;
+}
+.sign .loginform .inputbox .name {
+  width: 100%;
+  border-bottom: 1px solid #919191;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  background: none;
+  font-size: 15px;
+  outline: none;
+}
+.sign .loginform .inputbox .field {
+  width: 100%;
+  border-bottom: 1px solid #919191;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  background: none;
+  font-size: 15px;
+  outline: none;
+}
+.sign .loginform .inputbox .password {
+  width: 100%;
+  border-bottom: 1px solid #919191;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  background: none;
+  font-size: 15px;
+  outline: none;
+}
+.sign .loginform .inputbox .check {
+  margin: 10px 0;
+  accent-color: rgb(234, 141, 20);
+  cursor: pointer;
+}
+.sign .loginform .inputbox button {
+  border: none;
+  background: brown;
+  color: white;
+  padding: 10px 5px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transform: all 0.3s ease-out;
+  -webkit-transform: all 0.3s ease-out;
+}
+.sign .loginform .inputbox .forgot {
+  position: relative;
+  bottom: 4px;
+  float: right;
+  font-size: 12px;
+  color: brown;
+}
+.sign .loginform .afterform {
+    text-align: center;
+  margin: 25px auto;
+  width: 250px;
+}
+.sign .loginform .afterform .after {
+  font-size: 15px;
+  color: brown;
+  text-decoration: none;
+}
+
+
+.social p span {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  padding: 0 20px;
+  color: brown;
+}
+.social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.social ul li a {
+  color: brown;
+  text-decoration: none;
+  padding: 5px;
+}
+.social a {
+  display: flex;
+  font-size: 20px;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transition: transform 0.3s;
+}
+.social a:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+  .loginform {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .social ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social ul li a {
+    font-size: 1.2rem;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .loginform {
+    padding: 15px;
+    box-shadow: none; /* Optional to remove shadow on smaller screens */
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .inputbox label,
+  .inputbox input {
+    font-size: 0.9rem;
+  }
+
+  .button {
+    padding: 12px;
+  }
+
+  /* Adjust the spacing of social icons */
+  .social ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .social ul li {
+    margin: 0 5px;
+  }
+
+  .social ul li a {
+    font-size: 1rem;
+    padding: 8px;
+  }
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.error-border {
+  border-bottom: 1px solid red;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+

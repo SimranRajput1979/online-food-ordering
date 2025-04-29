@@ -8,7 +8,7 @@ This project is a simple and attractive website where users can browse menus and
 
 Beautiful homepage with navigation links.
 
-Menu page displaying a variety of dishes.
+Menu page displaying a variety of dishes...
 
 Interactive order form (basic).
 

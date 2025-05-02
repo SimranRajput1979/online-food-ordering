@@ -67,6 +67,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const errorBorders = document.querySelectorAll('.error-border');
         errorBorders.forEach((border) => border.classList.remove('error-border'));
     }
+    function clearErrors() {
+        const errorMessages = document.querySelectorAll('.error');
+        errorMessages.forEach((message) => message.remove());
+
+        const errorBorders = document.querySelectorAll('.error-border');
+        errorBorders.forEach((border) => border.classList.remove('error-border'));
 
     // Simple Email Validation Function
     function isValidEmail(email) {
